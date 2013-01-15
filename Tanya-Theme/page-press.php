@@ -8,7 +8,7 @@
 <div id="page-wrap">
 <div id='main-content'>
 <!-- <div id="top-content"><h2>Press</h2></div> -->
-<div id="tab_section_wrapper">
+<div id="tab_section_wrapper" class="group">
 	<div id="tabs">
 		<ul>
 			<li id="center1" class="selected-tab">Recent Press</li>

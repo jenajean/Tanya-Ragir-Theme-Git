@@ -8,7 +8,7 @@
 <div id='main-content'>	
 		
 	
-	<div id="center">
+	<div id="center" class="group">
 		<img src="<?php echo get_post_meta($post->ID, "main-pic", true);?>" alt='picture of tanya ragir sculpting' />	
 		<?php $recent = new WP_Query("page_id=237"); while($recent->have_posts())
 		: $recent->the_post();?>

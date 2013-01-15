@@ -8,7 +8,7 @@
 <div id='main-content'>	
 		
 	
-	<div id="center">
+	<div id="center" class="group">
 		<h1>Events</h1>
 	<div id="centercenter">
 		<h2>Upcoming Events:</h2>

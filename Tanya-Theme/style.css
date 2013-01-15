@@ -8,6 +8,20 @@
 	margin:0 auto;
 	color:/*#7d7d7d*/black;
 	}
+/* CLEAR-FIX	 */
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+} 
+/* END CLEAR-FIX	 */
+
 h1, h2, h3, a, ul, img {
 	display: block;
 	font-weight:normal;}
@@ -57,7 +71,6 @@ header{margin-left:10px;
 	
 	position:relative;
 	background-color:#7d7d7d;
-	height:800px;
 	width:900px;
 	-moz-box-shadow:    3px 3px 5px 6px #666;
 	-webkit-box-shadow: 3px 3px 5px 6px #666;

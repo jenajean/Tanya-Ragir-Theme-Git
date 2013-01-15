@@ -8,7 +8,7 @@
 <div id='main-content'>	
 		
 	
-	<div id="center">
+	<div id="center" class="group">
 		<div id="resume-title-wrap">
 			<h1>Resume</h1>
 			<!-- <div id="triangle"></div> -->
