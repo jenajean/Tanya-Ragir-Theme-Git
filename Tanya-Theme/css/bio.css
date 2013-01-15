@@ -11,7 +11,7 @@
 	float:left;
 	display:block;
 	width:600px;
-	background-color:#ebe8e4;
+	background-color:white; /* #ebe8e4 */
 	-moz-box-shadow:    3px 3px 5px 6px #666;
 	-webkit-box-shadow: 3px 3px 5px 6px #666;
 	box-shadow:         3px 3px 5px 6px #666;
