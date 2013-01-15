@@ -6,9 +6,9 @@
 
 <?php get_header(); the_post(); ?>
 <div id="page-wrap">
-<div id='main-content'>
+<div id='main-content' class="group">
 <!-- <div id="top-content"><h2>Press</h2></div> -->
-<div id="tab_section_wrapper" class="group">
+<div id="tab_section_wrapper">
 	<div id="tabs">
 		<ul>
 			<li id="center1" class="selected-tab">Recent Press</li>

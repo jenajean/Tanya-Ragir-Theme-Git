@@ -5,10 +5,10 @@
 <?php get_header(); the_post(); ?>
 
 <div id="page-wrap">
-<div id='main-content'>	
+<div id='main-content' class="group">	
 		
 	
-	<div id="center" class="group">
+	<div id="center" >
 		<div id="resume-title-wrap">
 			<h1>Resume</h1>
 			<!-- <div id="triangle"></div> -->

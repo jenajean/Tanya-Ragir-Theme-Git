@@ -5,10 +5,10 @@
 <?php get_header(); the_post(); ?>
 
 <div id="page-wrap">
-<div id='main-content'>	
+<div id='main-content'  class="group">	
 		
 	
-	<div id="center" class="group">
+	<div id="center">
 		<img src="<?php echo get_post_meta($post->ID, "main-pic", true);?>" alt='picture of tanya ragir sculpting' />	
 		<?php $recent = new WP_Query("page_id=237"); while($recent->have_posts())
 		: $recent->the_post();?>

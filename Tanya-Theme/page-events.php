@@ -5,10 +5,10 @@
 <?php get_header(); the_post(); ?>
 
 <div id="page-wrap">
-<div id='main-content'>	
+<div id='main-content' class="group">	
 		
 	
-	<div id="center" class="group">
+	<div id="center" >
 		<h1>Events</h1>
 	<div id="centercenter">
 		<h2>Upcoming Events:</h2>

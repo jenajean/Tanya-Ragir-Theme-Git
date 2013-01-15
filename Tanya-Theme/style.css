@@ -20,7 +20,7 @@
 .group {
     zoom:1; /* For IE 6/7 (trigger hasLayout) */
 } 
-/* END CLEAR-FIX	 */
+/* END CLEAR-FIX*/
 
 h1, h2, h3, a, ul, img {
 	display: block;
@@ -85,6 +85,10 @@ header{margin-left:10px;
 	-webkit-box-shadow: 3px 3px 5px 6px #666;
 	box-shadow:         3px 3px 5px 6px #666;
 	}
+	
+#main-content {
+	min-height:500px;
+}
 
 /*#main-content-art-port{
 	display:inline-block;
