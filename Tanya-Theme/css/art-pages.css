@@ -1,0 +1,36 @@
+nav {
+	position:absolute;	
+	top:40px;
+	right:75px;
+	height:350px;
+	width:225px;
+	display:inline-block;
+/*	border:1px solid red;
+*/	
+	z-index:100;
+	}
+	
+	#main-content-art-port{
+		display:inline-block;
+		width:505px;
+		height:550px;
+		margin:20px 0 0 55px;
+	/*	border:1px solid red;
+	*/	position:relative;
+	}
+	
+		
+		#subWork {
+			/*width:500px;*/
+			display:block;
+			border-right:1px solid #999999;
+			padding-right:4px;
+			margin-top:4px;
+			/*border: 1px solid green;*/}
+		#subArtist {
+		/*	width:500px;*/
+			display:none;
+			border-right:1px solid #999999;
+			padding-right:4px;
+			margin-top:4px;
+/*				border: 1px solid green;*/}

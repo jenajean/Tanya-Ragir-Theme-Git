@@ -1,0 +1,91 @@
+
+#backdrop{
+	width:1200px;
+	background:#d7d7d7 url('http://bugswag.com/Images/press-back-lt.jpg') repeat;
+	background-position:top center;
+	margin:0 auto;
+	height:5500px;
+}
+#page-wrap{height:5200px}
+
+#center{
+	float:left;
+	display:block;
+	width:600px;
+	background-color:#ebe8e4;
+	-moz-box-shadow:    3px 3px 5px 6px #666;
+	-webkit-box-shadow: 3px 3px 5px 6px #666;
+	box-shadow:         3px 3px 5px 6px #666;
+	padding:20px;
+	margin:25px;
+	border-radius:10px;}
+#resume-title-wrap{
+	position:relative;
+	width:90px;
+	height: 20px;
+	padding-bottom: 25px;
+	
+	
+}	
+#center h1{
+	font-size:26px;
+/*	background-color:#ebe8e4;
+	position:absolute;
+	top:-30px;
+	right:-208px;
+	box-shadow:2px 2px 9px 1px #666;
+	-moz-box-shadow:2px 2px 9px 1px #666;
+	-webkit-box-shadow:2px 2px 9px 1px #666;
+	padding:5px;
+	z-index:1;*/
+	text-transform:none;
+}
+/*#triangle{
+	position:absolute;
+	right:-211px;
+	top:9px;
+	width:20px;
+	height:20px;
+	background-image: url(/Images/triangle-flip.png);
+	background-repeat:no-repeat;
+}*/
+#center img{
+	display:inline-block;
+	float:left;
+	width:230px;
+	padding:15px;
+}
+#center h3 {
+	font-size:25px;
+	text-align:center;
+
+}
+#center p {
+/*	text-align:justify;
+*/
+}
+table{
+	margin:0;
+}
+.date {
+	width:60px;
+}
+.place{
+	width:350px;
+}
+
+			#subWork {
+				/*width:500px;*/
+				display:none;
+				border-right:1px solid #999999;
+				padding-right:4px;
+				margin-top:4px;
+				/*border: 1px solid green;*/}
+			#subArtist {
+			/*	width:500px;*/
+				display:block;
+				border-right:1px solid #999999;
+				padding-right:4px;
+				margin-top:4px;
+/*				border: 1px solid green;*/}
+	

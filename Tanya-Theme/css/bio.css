@@ -1,0 +1,53 @@
+
+#backdrop{
+	height:1200px;
+	width:1200px;
+	background:#d7d7d7 url('http://bugswag.com/Images/press-back-lt.jpg') repeat;
+	background-position:top center;
+	margin:0 auto;
+}
+#page-wrap{height:750px}
+
+#center{
+	float:left;
+	display:block;
+	width:600px;
+	background-color:#ebe8e4;
+	-moz-box-shadow:    3px 3px 5px 6px #666;
+	-webkit-box-shadow: 3px 3px 5px 6px #666;
+	box-shadow:         3px 3px 5px 6px #666;
+	padding:20px;
+	margin:25px;
+	border-radius:10px;}
+#center img{
+	display:inline-block;
+	float:left;
+	width:230px;
+	padding:15px 15px 5px 15px;
+}
+#center h3 {
+	padding-top:8px;
+	font-size:25px;
+	text-align:center;
+
+}
+#center p {
+/*	text-align:justify;
+*/
+}
+
+			#subWork {
+				/*width:500px;*/
+				display:none;
+				border-right:1px solid #999999;
+				padding-right:4px;
+				margin-top:4px;
+				/*border: 1px solid green;*/}
+			#subArtist {
+			/*	width:500px;*/
+				display:block;
+				border-right:1px solid #999999;
+				padding-right:4px;
+				margin-top:4px;
+/*				border: 1px solid green;*/}
+		

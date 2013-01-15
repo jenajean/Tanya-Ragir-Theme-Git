@@ -1,0 +1,21 @@
+#backdrop{
+	height:1200px;
+	width:1200px;
+/*	background:#d7d7d7 url('http://localhost:8888/tanyaragir.com/images/press-back-lt.jpg') repeat;
+*/	background-position:top center;
+	margin:0 auto;
+}
+
+#subWork {
+	display:block;
+	border-right:1px solid #999999;
+	padding-right:4px;
+	margin-top:4px;
+	/*border: 1px solid green;*/}
+#subArtist {
+	border-right:1px solid #999999;
+	
+		display:none;
+		padding-right:4px;
+		margin-top:4px;
+}

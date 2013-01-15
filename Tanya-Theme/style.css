@@ -1,0 +1,132 @@
+
+* {
+	
+	font-family: "freight-sans-pro"; 
+/*	font-family: "sorts-mill-goudy";
+*/ 
+	/*"pragmatica-web", sans-serif;*/
+	margin:0 auto;
+	color:/*#7d7d7d*/black;
+	}
+h1, h2, h3, a, ul, img {
+	display: block;
+	font-weight:normal;}
+body {
+	height:1200px;
+	background:#d7d7d7;
+
+}
+#backdrop {
+	height:100%;
+	width:1200px;
+	background:#d7d7d7 url('http://bugswag.com/Images/Grids_background_lt.jpg') repeat;
+	background-position:top center;
+	margin:0 auto;
+}
+
+h1 a{font-family:"angie-sans" !important;}
+header h1{
+	padding:35px 0 10px 0; 
+	margin-left:140px;}
+header h2 {
+		margin-left:135px;
+		padding-bottom:15px;
+		padding-left:13px;
+}
+h1	{
+	font-family:"angie-sans" !important;
+	font-size:45px;
+	text-transform:uppercase;
+	}
+h2{font-family:"angie-sans";
+	font-size:16px;
+	color:#464646;
+	text-transform:uppercase;
+	}	
+h3 {font-size:15px;}
+ul, li {list-style-type: none;
+	list-style-position: inside;}
+li a:hover {font-weight: bold;}
+a {
+	text-decoration: none;
+	color: #363636;	
+}
+header{margin-left:10px;
+	font-family:"angie-sans";}
+#page-wrap {
+	
+	position:relative;
+	background-color:#7d7d7d;
+	height:800px;
+	width:900px;
+	-moz-box-shadow:    3px 3px 5px 6px #666;
+	-webkit-box-shadow: 3px 3px 5px 6px #666;
+	box-shadow:         3px 3px 5px 6px #666;
+	}
+#page-wrap-art {
+	position:relative;
+	background-color:#7d7d7d;
+	height:625px;
+	width:1200px;
+	-moz-box-shadow:    3px 3px 5px 6px #666;
+	-webkit-box-shadow: 3px 3px 5px 6px #666;
+	box-shadow:         3px 3px 5px 6px #666;
+	}
+
+/*#main-content-art-port{
+	display:inline-block;
+	width:505px;
+	height:550px;
+	margin:20px 0 0 85px;
+	position:relative;
+}*/	
+
+			
+#hidingPlace {
+	display: none;
+}
+nav {
+	position:absolute;	
+	top:40px;
+	right:50px;
+	height:350px;
+	width:225px;
+	display:inline-block;
+/*	border:1px solid red;
+*/	
+	z-index:100;
+	}
+	
+nav>ul li{
+	width:220px;
+}
+	.dd {
+		text-align:right;
+				}
+	ul.dd{
+		width:210px;
+		-webkit-padding-start: 0 !important;}
+	.dd li{
+			width:210px;
+			}
+	.dd li a{
+		font-size:18px;				
+		}
+	.selected {
+		font-weight:bold;}
+	.mainList a{
+		text-transform:uppercase;
+		text-align:right;
+		font-weight:normal;
+		font-size:18px;
+		font-family:"angie-sans";
+		/*border: 1px solid red;*/}
+
+#footer{
+	color:#464646;
+	display:block;
+	float:right;}
+	
+
+
+	
