@@ -9,16 +9,6 @@
 #page-wrap{height:750px}
 
 #center{
-	float:left;
-	display:block;
-	width:600px;
-	background-color:white; /* #ebe8e4 */
-	-moz-box-shadow:    3px 3px 5px 6px #666;
-	-webkit-box-shadow: 3px 3px 5px 6px #666;
-	box-shadow:         3px 3px 5px 6px #666;
-	border-radius:10px;
-	padding:20px;
-	margin:25px;
 	text-align:center;
 }
 #center h1{

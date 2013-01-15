@@ -7,17 +7,6 @@
 	margin:0 auto;
 }
 
-#center{
-	float:left;
-	display:block;
-	width:600px;
-	background-color:white; /* #ebe8e4 */
-	-moz-box-shadow:    3px 3px 5px 6px #666;
-	-webkit-box-shadow: 3px 3px 5px 6px #666;
-	box-shadow:         3px 3px 5px 6px #666;
-	padding:20px;
-	margin:25px;
-	border-radius:10px;}
 #center img{
 	display:inline-block;
 	float:left;
