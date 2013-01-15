@@ -4,11 +4,11 @@
 
 <?php get_header(); the_post(); ?>
 
-<div id="page-wrap">
-<div id='main-content' class="group">	
+<div class="page-wrap">
+<div class="main-content group">	
 		
 	
-	<div id="center" >
+	<div class="center" >
 		<div id="resume-title-wrap">
 			<h1>Resume</h1>
 			<!-- <div id="triangle"></div> -->

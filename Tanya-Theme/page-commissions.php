@@ -3,13 +3,13 @@
 ?>
 
 <?php get_header(); the_post(); ?>
-<div id="page-wrap-art">
-<div id='main-content'>	
+<div class="page-wrap-art">
+<div class='main-content'>	
 
 	<!--  -->
 
 		
-	<div id='main-content-art-port'> 
+	<div class='main-content-art-port'> 
 				<?php $recent = new WP_Query("page_id=1556542589"); while($recent->have_posts())
 				: $recent->the_post();?>
 				       <!-- <h3><?php the_title(); ?></h3> -->

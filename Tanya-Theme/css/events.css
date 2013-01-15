@@ -6,17 +6,17 @@
 	background-position:top center;
 	margin:0 auto;
 }
-#page-wrap{height:750px}
 
-#center{
+
+.center{
 	text-align:center;
 }
-#center h1{
+.center h1{
 	font-size:26px;
 	text-transform:none;
 	
 }
-#center h2{
+.center h2{
 	text-align:left;
 	font-size:18px;
 		padding-bottom:10px;

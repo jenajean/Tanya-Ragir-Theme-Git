@@ -7,10 +7,10 @@
 <?php get_header(); the_post(); ?>
 
 
-<div id='page-wrap'>
-<div id='main-content'>	
+<div class='page-wrap'>
+<div class='main-content'>	
 	
-	<div id='center'>
+	<div class='center'>
 			<?php $recent = new WP_Query("page_id=4"); while($recent->have_posts())
 			: $recent->the_post();?>
 			<h3></h3>

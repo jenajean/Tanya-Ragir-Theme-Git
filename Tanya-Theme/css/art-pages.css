@@ -10,13 +10,12 @@ nav {
 	z-index:100;
 	}
 	
-	#main-content-art-port{
+	.main-content-art-port{
 		display:inline-block;
 		width:505px;
 		height:550px;
 		margin:20px 0 0 55px;
-	/*	border:1px solid red;
-	*/	position:relative;
+		position:relative;
 	}
 	
 		

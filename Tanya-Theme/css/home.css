@@ -7,36 +7,25 @@
 	background-size:1200px 1500px;
 	margin:0 auto;
 }
-#page-wrap{height:700px}
+
 #home-slideshow {
 	
 	position:absolute;
 	top:45px;
 	left:300px;
 }
-#center{
+.center{
 	position:relative;}
-#center p{
+.center p{
 	display:inline-block;
 	width:200px;
 	text-align:right;
 	float:left;
 }
-#center img{
-	display:inline-block;
-	float:left;
-	width:230px;
+.center img{
 	padding:15px;
 }
-#center h3 {
-	font-size:25px;
-	text-align:center;
 
-}
-#center p {
-/*	text-align:justify;
-*/
-}
 			#subWork {
 				/*width:500px;*/
 				display:none;

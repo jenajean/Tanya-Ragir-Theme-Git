@@ -3,8 +3,8 @@
  ?>
 
 <?php get_header(); ?>
-<div id="page-wrap">
-<div id='main-content'>	
+<div class="page-wrap">
+<div class='main-content'>	
 
 
 	<!-- <div id='main-content-left'> 

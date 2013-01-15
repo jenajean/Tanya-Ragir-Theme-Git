@@ -7,23 +7,8 @@
 	margin:0 auto;
 }
 
-
-#center img{
-	display:inline-block;
-	float:left;
-	width:230px;
-	padding:15px 15px 5px 15px;
-}
-#center h3 {
-	padding-top:8px;
-	font-size:25px;
-	text-align:center;
-
-}
-#center p {
-	text-indent:50px;
-/*	text-align:justify;
-*/
+.center p {
+	padding-left:25px;
 }
 
 			#subWork {

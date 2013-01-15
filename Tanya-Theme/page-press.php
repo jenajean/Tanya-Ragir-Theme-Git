@@ -5,8 +5,8 @@
 ?>
 
 <?php get_header(); the_post(); ?>
-<div id="page-wrap">
-<div id='main-content' class="group">
+<div class="page-wrap">
+<div class="group main-content">
 <!-- <div id="top-content"><h2>Press</h2></div> -->
 <div id="tab_section_wrapper">
 	<div id="tabs">
@@ -17,20 +17,20 @@
 		</ul>
 	</div><!--end tabs-->
 	<div id="tabbed_content">
-		<div id='center1' class="center viewed"> 
+		<div id='center1' class="center-press viewed"> 
 		
 						<?php echo do_shortcode('[portfolio_slideshow id=1556542305 pagerstyle=carousel carouselsize=5 navpos=disabled showdesc=true]');?>
 					
 					
 		</div>
 			
-		<div id='center2' class="center"> 
+		<div id='center2' class="center-press"> 
 				<?php echo do_shortcode('[portfolio_slideshow id=1556542305 pagerstyle=carousel]');?>
 		
 				
 		</div>
 		
-		<div id='center3' class="center"> 
+		<div id='center3' class="center-press"> 
 						<?php echo do_shortcode('[portfolio_slideshow id=1556542305 pagerstyle=carousel]');?>
 		
 					/div

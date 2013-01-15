@@ -4,11 +4,11 @@
 
 <?php get_header(); the_post(); ?>
 
-<div id="page-wrap">
-<div id='main-content' class="group">	
+<div class="page-wrap">
+<div class="main-content group">	
 		
 	
-	<div id="center">
+	<div class="center">
 		<img src="<?php echo get_post_meta($post->ID, "main-pic", true);?>" alt="picture of tanya ragir" />	
 		<?php $recent = new WP_Query("page_id=233"); while($recent->have_posts())
 		: $recent->the_post();?>
