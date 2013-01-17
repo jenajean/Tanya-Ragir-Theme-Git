@@ -1,6 +1,6 @@
 	
 	</div> <!-- END PAGE-WRAP -->
-	
+</div><!-- end greater-wrap -->	
 	
 	<div id="footer">
 			&copy; <?php echo date("Y"); echo " "; bloginfo('name'); ?>
