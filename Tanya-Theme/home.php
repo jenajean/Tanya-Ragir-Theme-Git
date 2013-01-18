@@ -17,10 +17,8 @@
 			</br>
 			<p><?php the_content(); ?></p>
 			<?php endwhile; ?>
-			<div id='home-slideshow'>
-					<?php echo do_shortcode('[portfolio_slideshow id=1556542235 pagerpos=none navpos=disabled showdesc=true]');?>
-			</div>
-	</div> <!-- END CENTER -->
+	
+	</div> <!-- END CENTER id=1556542235-->
 	
 
 

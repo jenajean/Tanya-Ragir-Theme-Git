@@ -1,10 +1,8 @@
 
 #backdrop{
-/*	height:1200px;
-*/	width:1200px;
+
 	background:#d7d7d7 url('http://bugswag.com/Images/press-back-lt.jpg') repeat;
-	background-position:top center;
-	margin:0 auto;
+
 }
 
 #top-content{
@@ -28,9 +26,15 @@
 	padding-top:120px;
 	display:none;
 	height:580px;
+	background-color:white;
+	-moz-box-shadow:    3px 3px 10px 4px rgb(175, 173, 173);
+	-webkit-box-shadow: 3px 3px 10px 4px rgb(175, 173, 173);
+	box-shadow:         3px 3px 10px 4px rgb(175, 173, 173);
+/* 
 	border-right: 1px solid black;
 	border-left:1px solid black;
 	border-bottom:1px solid black;
+ */
 	}
 
 
@@ -56,10 +60,12 @@
 }
 #tab_section_wrapper{
 	padding-top:15px;
+	width: 800px;
+	margin-left:-130px;
 }
 #tabs ul {
 /*	margin: 0 0 0 0;*/
-	background-color: gray;
+
 	display:block;
 }
 
@@ -70,14 +76,14 @@
 	text-align: center;
 	list-style: none;
 	display: inline-block;
-	background-color:#d1cdc6;
- 	border-top:3px solid #666;
- 	border-left:3px solid #666;
+	background-color:#cccccc;
+ 	border-top:2px solid #666;
+ 	border-left:2px solid #666;
 }
 .selected-tab{
-	background-color:#ebe8e4 !important;
+	background-color:white !important;
 
 }
 #tabs ul li:hover {
-	background-color:#cccccc;
+	background-color:white;
 }

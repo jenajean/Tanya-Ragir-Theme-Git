@@ -1,11 +1,9 @@
 
 #backdrop{
-	height:1200px;
-	width:1200px;
+	
 	background:#d7d7d7 url('http://bugswag.com/Images/home-studio.jpg') no-repeat;
 	background-position:top center;
 	background-size:1200px 1500px;
-	margin:0 auto;
 }
 
 #home-slideshow {
@@ -24,6 +22,8 @@
 }
 .center img{
 	padding:15px;
+	width:auto;
+	float:none;
 }
 
 			#subWork {

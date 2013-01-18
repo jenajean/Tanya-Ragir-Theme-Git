@@ -33,7 +33,7 @@
 		<div id='center3' class="center-press"> 
 						<?php echo do_shortcode('[portfolio_slideshow id=1556542305 pagerstyle=carousel]');?>
 		
-					/div
+		</div>
 	</div> <!--end tabbed_content-->
 </div><!--end tab_section_wrapper-->	
 	
@@ -70,6 +70,6 @@
 		</nav>
 	</div> <!-- END MAIN CONTENT -->
 	</div> <!-- END pagewrap -->	
-	<!-- DIV BACKDROP ends in footer -->
+	<!-- DIV BACKDROP & greater-wrapper ends in footer -->
 
 		<?php get_footer(); ?>

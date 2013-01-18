@@ -4,11 +4,9 @@
 	text-align:center;
 }
 #backdrop{
-	height:1200px;
-	width:1200px;
+
 	background:#d7d7d7 url('http://bugswag.com/Images/press-back-lt.jpg') repeat;
-	background-position:top center;
-	margin:0 auto;
+
 }
 .page-wrap{
 	background-color:#7d7d7d;

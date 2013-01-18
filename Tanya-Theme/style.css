@@ -32,8 +32,7 @@ body {
 }
 #backdrop {
 	height:100%;
-	width:1200px;
-	background:#d7d7d7 url('http://bugswag.com/Images/Grids_background_lt.jpg') repeat;
+	background:#d7d7d7 url('http://bugswag.com/Images/Grids_background_horizontal.jpg') repeat;
 	background-position:top center;
 	margin:0 auto;
 }
@@ -69,6 +68,7 @@ header{margin-left:10px;
 	font-family:"angie-sans";}
 .greater-wrap {
 	background-color:rgb(219, 217, 217);
+	padding-bottom:25px;
 	}
 .page-wrap {
 	
@@ -76,9 +76,9 @@ header{margin-left:10px;
 /* 	background-color:#7d7d7d */;
 	width:900px;
 /* 
-	-moz-box-shadow:    3px 3px 5px 6px #666;
-	-webkit-box-shadow: 3px 3px 5px 6px #666;
-	box-shadow:         3px 3px 5px 6px #666;
+	-moz-box-shadow:    3px 3px 10px 4px rgb(175, 173, 173);
+	-webkit-box-shadow: 3px 3px 10px 4px rgb(175, 173, 173);
+	box-shadow:         3px 3px 10px 4px rgb(175, 173, 173);
  */
 	}
 .page-wrap-art {
@@ -87,9 +87,9 @@ header{margin-left:10px;
 	height:625px;
 	width:1200px;
 	/* 
-	-moz-box-shadow:    3px 3px 5px 6px #666;
-		-webkit-box-shadow: 3px 3px 5px 6px #666;
-		box-shadow:         3px 3px 5px 6px #666;
+	-moz-box-shadow:    3px 3px 10px 4px rgb(175, 173, 173);
+	-webkit-box-shadow: 3px 3px 10px 4px rgb(175, 173, 173);
+	box-shadow:         3px 3px 10px 4px rgb(175, 173, 173);
  */
 	}
 	

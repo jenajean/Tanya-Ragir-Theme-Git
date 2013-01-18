@@ -1,5 +1,5 @@
 	
-	</div> <!-- END PAGE-WRAP -->
+	</div> <!-- END backdrop -->
 </div><!-- end greater-wrap -->	
 	
 	<div id="footer">
