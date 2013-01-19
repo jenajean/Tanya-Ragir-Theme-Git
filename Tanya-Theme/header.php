@@ -28,6 +28,10 @@
 		         echo ' - page '. $paged; }
 		   ?>
 	</title>
+	
+	<script type="text/javascript" src="http://bugswag.com/html5shiv.js"></script>
+		<script type="text/javascript" src="http://bugswag.com/html5shiv-printshiv.js"></script>
+	
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 
 	<script type="text/javascript" src="http://bugswag.com/script.js"></script>
@@ -149,7 +153,7 @@
 <body <?php body_class(); ?>>
 <div id="backdrop">
 <header>
-	<h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?><a></h1>
+	<h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
 	<h2><?php bloginfo('description'); ?></h2>
 </header>
 

@@ -11,13 +11,23 @@
 <div class='main-content'>	
 	
 	<div class='center'>
+		<div class="center-left">
+			<img src="<?php echo get_post_meta($post->ID, "main-pic", true);?>" alt='picture of tanya ragir sculpting' />	
+			<?php $recent = new WP_Query("page_id=237"); while($recent->have_posts())
+			: $recent->the_post();?>
+			<!-- <h3><?php the_title(); ?></h3><br /> -->
+			<?php the_content(); ?>
+			<?php endwhile; ?>
+		</div>
+		
+		<div class="center-right">
 			<?php $recent = new WP_Query("page_id=4"); while($recent->have_posts())
 			: $recent->the_post();?>
 			<h3></h3>
 			</br>
 			<p><?php the_content(); ?></p>
 			<?php endwhile; ?>
-	
+		</div>
 	</div> <!-- END CENTER id=1556542235-->
 	
 
