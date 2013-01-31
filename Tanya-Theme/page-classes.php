@@ -9,7 +9,7 @@
 		
 	
 	<div class="center" >
-		<!-- <img src="<?php echo get_post_meta($post->ID, "main-pic", true);?>" alt="picture of tanya ragir" />	 -->
+		<!-- <img class="image" src="<?php echo get_post_meta($post->ID, "main-pic", true);?>" alt="picture of tanya ragir" />	 -->
 		<?php $recent = new WP_Query("page_id=1556542163"); while($recent->have_posts())
 		: $recent->the_post();?>
 		<h3><?php the_title(); ?></h3></br>

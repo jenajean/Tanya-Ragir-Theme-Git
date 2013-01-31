@@ -91,7 +91,7 @@ header{
 	padding:20px;
 	margin-top:25px;
 	border-radius:10px;}
-.center img{
+.image{
 	display:inline-block;
 	float:left;
 	width:230px;
@@ -103,16 +103,7 @@ header{
 	text-align:center;
 
 }
-.center-left {
-	width:250px;
-	display:inline-block;
-	float:left;
-}
-.center-right {
-	width:500px;
-	display:inline-block;
-	float:right;
-}
+
 
 #hidingPlace {
 	display: none;

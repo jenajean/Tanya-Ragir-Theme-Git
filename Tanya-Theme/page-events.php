@@ -13,13 +13,13 @@
 	<div id="centercenter">
 		<h2>Upcoming Events:</h2>
 		<div class="event-thumb">
-			<img src="<?php echo get_post_meta($post->ID, "main-pic-4", true);?>" alt="" />	
+			<img class="image" src="<?php echo get_post_meta($post->ID, "main-pic-4", true);?>" alt="" />	
 			<div class="slides-link"><?php echo do_shortcode('[popup-slideshow id=1556542305 text="California Art Club Show"]');?>
 			</div>
 		</div>
 	
 		<div class="event-thumb">
-			<img src="<?php echo get_post_meta($post->ID, "main-pic-3", true);?>" alt="" />	
+			<img class="image" src="<?php echo get_post_meta($post->ID, "main-pic-3", true);?>" alt="" />	
 			<div class="slides-link"><?php echo do_shortcode('[popup-slideshow id=1556542305 text="In Bloom Event"]');?>
 			</div>
 		</div>
@@ -29,13 +29,13 @@
 	<br />	
 	<h2>Past Events:</h2>
 		<div class="event-thumb">
-			<img src="<?php echo get_post_meta($post->ID, "main-pic-2", true);?>" alt="" />	
+			<img class="image" src="<?php echo get_post_meta($post->ID, "main-pic-2", true);?>" alt="" />	
 			<div class="slides-link"><?php echo do_shortcode('[popup-slideshow id=1556542305 text="Upward Bound House Fundraising Event"]');?>
 			</div>
 		</div>
 	
 		<div class="event-thumb">
-			<img src="<?php echo get_post_meta($post->ID, "main-pic-1", true);?>" alt="" />	
+			<img class="image" src="<?php echo get_post_meta($post->ID, "main-pic-1", true);?>" alt="" />	
 			<div class="slides-link"><?php echo do_shortcode('[popup-slideshow id=1556542305 text="CAN NYC Show"]');?>
 			</div>
 		</div>

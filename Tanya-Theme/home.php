@@ -11,16 +11,15 @@
 <div class='main-content'>	
 	
 	<div class='center group'>
-		<div class="center-left">
-			<img src="<?php echo get_post_meta($post->ID, "main-pic", true);?>" alt='picture of tanya ragir sculpting' />	
-			<?php $recent = new WP_Query("page_id=237"); while($recent->have_posts())
+		<div id="center-top">
+			<img class="image" src="<?php echo get_post_meta($post->ID, "main-pic", true);?>" alt='picture of tanya ragir sculpting' />	
+			<?php $recent = new WP_Query("page_id=1556543135"); while($recent->have_posts())
 			: $recent->the_post();?>
 			<!-- <h3><?php the_title(); ?></h3><br /> -->
 			<?php the_content(); ?>
 			<?php endwhile; ?>
 		</div>
-		
-		<div class="center-right">
+		<div id="center-bottom">
 			<?php $recent = new WP_Query("page_id=4"); while($recent->have_posts())
 			: $recent->the_post();?>
 			<p><?php the_content(); ?></p>
