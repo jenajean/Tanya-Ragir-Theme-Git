@@ -62,7 +62,7 @@ header{
 	
 	position:relative;
 /* 	background-color:#7d7d7d */;
-	width:900px;
+	width:1000px;
 /* 
 	-moz-box-shadow:    3px 3px 10px 4px rgb(175, 173, 173);
 	-webkit-box-shadow: 3px 3px 10px 4px rgb(175, 173, 173);
@@ -76,9 +76,12 @@ header{
 	
 .main-content {
 	min-height:500px;
+	padding-right:200px;
 }
 .center{
+/* 
 	float:left;
+ */
 	display:block;
 	width:600px;
 	background-color:white; /* #ebe8e4 */
@@ -86,7 +89,7 @@ header{
 	-webkit-box-shadow: 3px 3px 10px 4px rgb(175, 173, 173);
 	box-shadow:         3px 3px 10px 4px rgb(175, 173, 173);
 	padding:20px;
-	margin:25px;
+	margin-top:25px;
 	border-radius:10px;}
 .center img{
 	display:inline-block;
@@ -109,7 +112,6 @@ header{
 	width:500px;
 	display:inline-block;
 	float:right;
-	margin-top:-30px;
 }
 
 #hidingPlace {

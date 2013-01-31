@@ -7,19 +7,17 @@ body{height:1500px;}
 }
 
 #home-slideshow {
-	
 	position:absolute;
 	top:45px;
 	left:300px;
 }
 .greater-wrap{
-	height:800px;
+	
 }
 .center{
 	position:relative;
-		height:700px;
-	width: 800px;
-	margin-left: -120px;}
+	width: 750px;
+}
 .center p{
 	display:inline-block;
 	width:250px;

@@ -164,5 +164,5 @@
 	<h2><?php bloginfo('description'); ?></h2>
 </header>
 
-<div class="greater-wrap">
+<div class="greater-wrap group">
 
