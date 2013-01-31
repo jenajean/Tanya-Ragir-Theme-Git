@@ -29,12 +29,7 @@
 		   ?>
 	</title>
 	
-	<script type="text/javascript" src="http://bugswag.com/html5shiv.js"></script>
-		<script type="text/javascript" src="http://bugswag.com/html5shiv-printshiv.js"></script>
-	
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 
-	<script type="text/javascript" src="http://bugswag.com/script.js"></script>
 
 	<!-- <script type="text/javascript" src="http://localhost:8888/tanyaragir.com/slideClickThrough.js"></script> -->
 	
@@ -146,8 +141,20 @@
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
 	<?php if ( is_singular() ) wp_enqueue_script('comment-reply'); ?>
+	
+	<?php wp_enqueue_script("jquery"); ?>
 
 	<?php wp_head(); ?>
+	
+		<script type="text/javascript" src="http://bugswag.com/html5shiv.js"></script>
+		<script type="text/javascript" src="http://bugswag.com/html5shiv-printshiv.js"></script>
+	
+<!-- 
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+ -->
+
+	<script type="text/javascript" src="http://bugswag.com/script.js"></script>
+	
 </head>
 
 <body <?php body_class(); ?>>

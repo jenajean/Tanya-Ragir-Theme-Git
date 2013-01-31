@@ -6,20 +6,13 @@
 <div class="page-wrap-art wrap">
 <div class='main-content'>	
 
-	<!--  -->
-
 		
 	<div class='main-content-art-port'> 
 				<?php $recent = new WP_Query("page_id=1556542587"); while($recent->have_posts())
 				: $recent->the_post();?>
-				       <!-- <h3><?php the_title(); ?></h3> -->
 				       <?php the_content(); ?>
 				<?php endwhile; ?>
-
-			
-		</div> 
-		
-		<!-- <div id="caption"><h3></h3></div> -->
+	</div>
 		
 
 	<!-- MENU/NAV below-->
@@ -33,9 +26,8 @@
 						<li class='dd'><a href='http://bugswag.com/resume/'>resume</a></li>
 						<li class='dd'><a href='http://bugswag.com/events/'>events</a></li>
 						<li class='dd'><a href='http://bugswag.com/classes/'>classes</a></li>
-
-				</ul>
-				<br />
+					</ul>
+					<br />
 				<li class='mainList' id='work'><a href='http://bugswag.com/grids/'>Bodies of Work</a></li>
 				<ul id='subWork' style="display:block;" class='dd'>
  				<li><a href='http://bugswag.com/grids/'>grids and totems</a></li>
