@@ -1,35 +1,16 @@
 
 * {
-	
 	font-family: "freight-sans-pro"; 
-/*	font-family: "sorts-mill-goudy";
-*/ 
-	/*"pragmatica-web", sans-serif;*/
 	margin:0 auto;
-	color:/*#7d7d7d*/black;
+	color:black;
 	}
-/* CLEAR-FIX	 */
-.group:before,
-.group:after {
-    content:"";
-    display:table;
-}
-.group:after {
-    clear:both;
-}
-.group {
-    zoom:1; /* For IE 6/7 (trigger hasLayout) */
-} 
-/* END CLEAR-FIX*/
 
-h1, h2, h3, a, ul, img {
+h1, h2, h3, a, ul, nav, aside, header, footer {
 	display: block;
-	font-weight:normal;}
+	font-weight:normal;
+}
 body {
-width:1500px;
-	/* height:1200px; */
 	background:#d7d7d7;
-
 }
 #backdrop {
 	height:100%;
@@ -37,13 +18,14 @@ width:1500px;
 	background-position:top center;
 	margin:0 auto;
 }
-
+.wrap {
+	width:1000px;
+}
 h1 a{font-family:"angie-sans" !important;}
 header h1{
 	padding:35px 0 10px 0; 
-	margin-left:140px;}
+}
 header h2 {
-		margin-left:135px;
 		padding-bottom:15px;
 		padding-left:13px;
 }
@@ -52,7 +34,8 @@ h1	{
 	font-size:45px;
 	text-transform:uppercase;
 	}
-h2{font-family:"angie-sans";
+h2{
+	font-family:"angie-sans";
 	font-size:16px;
 	color:#464646;
 	text-transform:uppercase;
@@ -65,7 +48,7 @@ a {
 	text-decoration: none;
 	color: #363636;	
 }
-header{margin-left:10px;
+header{
 	font-family:"angie-sans";}
 .greater-wrap {
 	background-color:rgb(219, 217, 217);
@@ -88,14 +71,7 @@ header{margin-left:10px;
 	}
 .page-wrap-art {
 	position:relative;
-	/* background-color:#7d7d7d; */
 	height:700px;
-	width:1200px;
-	/* 
-	-moz-box-shadow:    3px 3px 10px 4px rgb(175, 173, 173);
-	-webkit-box-shadow: 3px 3px 10px 4px rgb(175, 173, 173);
-	box-shadow:         3px 3px 10px 4px rgb(175, 173, 173);
- */
 	}
 	
 .main-content {
@@ -136,15 +112,6 @@ header{margin-left:10px;
 	margin-top:-30px;
 }
 
-/*.main-content-art-port{
-	display:inline-block;
-	width:505px;
-	height:550px;
-	margin:20px 0 0 85px;
-	position:relative;
-}*/	
-
-			
 #hidingPlace {
 	display: none;
 }
@@ -152,13 +119,11 @@ nav {
 	position:absolute;	
 	top:40px;
 	right:0;
+/* 
 	height:350px;
 	width:225px;
-	display:inline-block;
-/*	border:1px solid red;
-*/	
-	z-index:100;
-	}
+ */
+}
 	
 nav>ul li{
 	width:220px;
@@ -190,6 +155,26 @@ nav>ul li{
 	display:block;
 	float:right;}
 	
+
+
+
+/* CLEAR-FIX	 */
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+} 
+/* END CLEAR-FIX*/
+
+
+
+
 
 
 	

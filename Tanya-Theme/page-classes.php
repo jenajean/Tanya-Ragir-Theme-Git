@@ -4,7 +4,7 @@
 
 <?php get_header(); the_post(); ?>
 
-<div class="page-wrap">
+<div class="page-wrap wrap">
 <div class="main-content group">	
 		
 	

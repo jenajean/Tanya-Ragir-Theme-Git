@@ -1,20 +1,13 @@
+/* 
 nav {
 	position:absolute;	
 	top:40px;
-	right:75px;
-	height:350px;
-	width:225px;
-	display:inline-block;
-/*	border:1px solid red;
-*/	
-	z-index:100;
-	}
+	right:0;
+}
+ */
 	
 	.main-content-art-port{
-		display:inline-block;
-		width:505px;
-		height:550px;
-		margin:20px 0 0 55px;
+		padding-right:200px; /* to make space for abspos'd nav */
 		position:relative;
 	}
 	

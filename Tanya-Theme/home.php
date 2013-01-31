@@ -23,8 +23,6 @@
 		<div class="center-right">
 			<?php $recent = new WP_Query("page_id=4"); while($recent->have_posts())
 			: $recent->the_post();?>
-			<h3></h3>
-			</br>
 			<p><?php the_content(); ?></p>
 			<?php endwhile; ?>
 		</div>

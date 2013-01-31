@@ -3,7 +3,7 @@
 ?>
 
 <?php get_header(); the_post(); ?>
-<div class="page-wrap-art">
+<div class="page-wrap-art wrap">
 <div class='main-content'>	
 
 	<!--  -->

@@ -5,7 +5,7 @@
 ?>
 
 <?php get_header(); the_post(); ?>
-<div class="page-wrap">
+<div class="page-wrap wrap">
 <div class="group main-content">
 <!-- <div id="top-content"><h2>Press</h2></div> -->
 <div id="tab_section_wrapper">

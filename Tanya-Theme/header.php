@@ -152,7 +152,7 @@
 
 <body <?php body_class(); ?>>
 <div id="backdrop">
-<header>
+<header class="wrap">
 	<h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
 	<h2><?php bloginfo('description'); ?></h2>
 </header>

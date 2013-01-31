@@ -1,11 +1,6 @@
-
 #backdrop{
-	
-	background:#d7d7d7 url('http://bugswag.com/Images/press-back-lt.jpg') repeat;
-	
+	background:#d7d7d7 url('http://bugswag.com/Images/press-back-lt.jpg') repeat;	
 }
-
-
 #resume-title-wrap{
 	position:relative;
 	width:90px;
@@ -16,26 +11,9 @@
 }	
 .center h1{
 	font-size:26px;
-/*	background-color:#ebe8e4;
-	position:absolute;
-	top:-30px;
-	right:-208px;
-	box-shadow:2px 2px 9px 1px #666;
-	-moz-box-shadow:2px 2px 9px 1px #666;
-	-webkit-box-shadow:2px 2px 9px 1px #666;
-	padding:5px;
-	z-index:1;*/
 	text-transform:none;
 }
-/*#triangle{
-	position:absolute;
-	right:-211px;
-	top:9px;
-	width:20px;
-	height:20px;
-	background-image: url(/Images/triangle-flip.png);
-	background-repeat:no-repeat;
-}*/
+
 .center img{
 	display:inline-block;
 	float:left;

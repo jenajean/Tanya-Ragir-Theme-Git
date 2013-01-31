@@ -3,7 +3,7 @@
 ?>
 
 <?php get_header(); the_post(); ?>
-<div class="page-wrap-art">
+<div class="page-wrap-art wrap">
 <div class='main-content'>	
 
 	<!--  -->
@@ -12,8 +12,7 @@
 	<div class='main-content-art-port'> 
 				<?php $recent = new WP_Query("page_id=2"); while($recent->have_posts())
 				: $recent->the_post();?>
-				       <!-- <h3><?php the_title(); ?></h3> -->
-				       <?php the_content(); ?>
+		       <?php the_content(); ?>
 				<?php endwhile; ?>
 
 			
