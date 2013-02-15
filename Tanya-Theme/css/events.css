@@ -25,14 +25,13 @@
 	margin:0 auto;
 }
 .event-thumb {
-	width:150px;
-	height:200px;
+
 	overflow:hidden;
 	float:left;
 	padding-right:15px;
 }
 .event-thumb img{
-	width:125px;
+	width:254px;
 }
 .event-thumb div{
 	

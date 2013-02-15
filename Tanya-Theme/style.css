@@ -21,6 +21,9 @@ body {
 .wrap {
 	width:1000px;
 }
+.top-padding{
+	padding-top:20px;
+}
 h1 a{font-family:"angie-sans" !important;}
 header h1{
 	padding:35px 0 10px 0; 
@@ -75,7 +78,7 @@ header{
 	}
 	
 .main-content {
-	min-height:500px;
+	min-height:550px;
 	padding-right:200px;
 }
 .center{
@@ -143,10 +146,71 @@ nav>ul li{
 		font-family:"angie-sans";
 		/*border: 1px solid red;*/}
 
+
+
+
+/* FORM BELOW */
+
+.form-headers {
+font-weight: bold;
+vertical-align: top;
+width: 83px;
+display: inline-block;
+
+}
+
+#contact_form {
+margin: 0 auto;
+width: 300px;
+padding-top: 15px;
+}
+
+#button-wrapper {
+	margin:0 auto;
+	text-align:center;
+
+}
+.button {
+	display:inline;
+	display: inline;
+	margin: 10px;
+	width: 70px;
+	font-size: 18px;
+	float: right;
+}
+
+#contact h3{
+padding:1.5em 1.5em 0 1.5em;
+text-transform:none;
+}
+
+.field {
+width: 200px;
+height: 30px;
+margin-bottom: 10px;
+}
+textarea {
+width: 200px;
+height: 100px;
+}
+
+
+
+/* FORM ABOVE */
+
+
+
+
+footer {
+	color: #d7d7d7;
+}
+
 #footer{
 	color:#464646;
 	display:block;
-	float:right;}
+	margin:0 auto;
+	
+	}
 	
 
 

@@ -42,6 +42,7 @@
 			
 			<li>
 				<ul id='subWork' class='dd'>
+					<li><a href='http://bugswag.com/new_work/'>new work</a></li>
 					<li><a href='http://bugswag.com/grids/' class="selected">grids and totems</a></li>
 					<li><a href='http://bugswag.com/wall-sculptures/'>wall sculptures</a></li>
 					<li><a href='http://bugswag.com/pedestals/'>Armor Series & pedestals</a></li>
@@ -50,11 +51,14 @@
 					<li><a href='http://bugswag.com/intimate/'>intimate ceramic</a></li>
 					<li><a href='http://bugswag.com/classical_figurative/'>classical figurative</a></li>
 					<li><a href='http://bugswag.com/commissions/'>commissions</a></li>
+					<li><a href='http://bugswag.com/drawings/'>drawings</a></li>
+
 				</ul>
 			</li>
 			<li><br /></li>
 
 			<li class='mainList'><a href='tanyaragir.com/blog'>Studio Blog</a></li>
+			<li class="mainList top-padding"><a href='http://bugswag.com/contact'>Contact</a></li>
 		</ul>
 	</nav>
 

@@ -11,13 +11,22 @@
 <div class='main-content'>	
 	
 	<div class='center group'>
-		<div id="center-top">
+		<div id="center-top" class="group">
 			<img class="image" src="<?php echo get_post_meta($post->ID, "main-pic", true);?>" alt='picture of tanya ragir sculpting' />	
-			<?php $recent = new WP_Query("page_id=1556543135"); while($recent->have_posts())
-			: $recent->the_post();?>
-			<!-- <h3><?php the_title(); ?></h3><br /> -->
-			<?php the_content(); ?>
-			<?php endwhile; ?>
+	
+			<div class="home-greeting">
+				<h2 class="home-page-header">
+					TANYA RAGIR
+					<br />
+					Sculpture
+				</h2>
+				<p class="home-page-list">
+					web: www.tanyaragir.com <br />
+					e-mail: tanya@tanyaragir.com<br />
+					tel: <a style="display: inline;" href="tel:310-390-5919">310.390.5919</a><br />
+				</p>
+			</div>
+
 		</div>
 		<div id="center-bottom">
 			<?php $recent = new WP_Query("page_id=4"); while($recent->have_posts())
@@ -49,6 +58,7 @@
 			
 			<li>
 				<ul id='subWork' style="display:block;" class='dd'>
+					<li><a href='http://bugswag.com/new_work/'>new work</a></li>
 					<li><a href='http://bugswag.com/grids/'>grids and totems</a></li>
 					<li><a href='http://bugswag.com/wall-sculptures/'>wall sculptures</a></li>
 					<li><a href='http://bugswag.com/pedestals/'>Armor Series & pedestals</a></li>
@@ -57,11 +67,13 @@
 					<li><a href='http://bugswag.com/intimate/'>intimate ceramic</a></li>
 					<li><a href='http://bugswag.com/classical_figurative/'>classical figurative</a></li>
 					<li><a href='http://bugswag.com/commissions/'>commissions</a></li>
+					<li><a href='http://bugswag.com/drawings/'>drawings</a></li>
 				</ul>
 			</li>
 			<li><br /></li>
 
 			<li class='mainList'><a href='tanyaragir.com/blog'>Studio Blog</a></li>
+			<li class="mainList top-padding"><a href='http://bugswag.com/contact'>Contact</a></li>
 		</ul>
 	</nav>
 	</div> <!-- END MAIN CONTENT -->

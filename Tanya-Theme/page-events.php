@@ -8,18 +8,30 @@
 <div class="main-content group">	
 		
 	
-	<div class="center" >
+	<div class="center group">
 		<h1>Events</h1>
-	<div id="centercenter">
+	<div id="centercenter group">
 		<h2>Upcoming Events:</h2>
 		<div class="event-thumb">
-			<img class="image" src="<?php echo get_post_meta($post->ID, "main-pic-4", true);?>" alt="" />	
-			<div class="slides-link"><?php echo do_shortcode('[popup-slideshow id=1556542305 text="California Art Club Show"]');?>
+			<a  class='slideshow-popup'
+			href='http://bugswag.com/wp-content/plugins/portfolio-slideshow-pro/inc/popup/
+			popup.php?id=1556542912&wh=625&ww=625&carouselsize=4'><img class="image"
+			src="<?php echo get_post_meta($post->ID, "main-pic-4", true);?>" alt="" /></a>
+		
+				
+	
+			<div class="slides-link"><?php echo do_shortcode('[popup-slideshow id=1556542651 text="California Art Club Show"]');?>
 			</div>
 		</div>
 	
 		<div class="event-thumb">
-			<img class="image" src="<?php echo get_post_meta($post->ID, "main-pic-3", true);?>" alt="" />	
+		
+			<a  class='slideshow-popup'
+			href='http://bugswag.com/wp-content/plugins/portfolio-slideshow-pro/inc/popup/
+			popup.php?id=1556543044&wh=625&ww=625&carouselsize=4'><img class="image"
+			src="<?php echo get_post_meta($post->ID, "main-pic-3", true);?>" alt="" /></a>
+		
+				
 			<div class="slides-link"><?php echo do_shortcode('[popup-slideshow id=1556542305 text="In Bloom Event"]');?>
 			</div>
 		</div>
@@ -65,6 +77,7 @@
 			
 			<li>
 				<ul id='subWork' class='dd'>
+					<li><a href='http://bugswag.com/new_work/'>new work</a></li>
 					<li><a href='http://bugswag.com/grids/'>grids and totems</a></li>
 					<li><a href='http://bugswag.com/wall-sculptures/'>wall sculptures</a></li>
 					<li><a href='http://bugswag.com/pedestals/'>Armor Series & pedestals</a></li>
@@ -73,11 +86,13 @@
 					<li><a href='http://bugswag.com/intimate/'>intimate ceramic</a></li>
 					<li><a href='http://bugswag.com/classical_figurative/'>classical figurative</a></li>
 					<li><a href='http://bugswag.com/commissions/'>commissions</a></li>
+					<li><a href='http://bugswag.com/drawings/'>drawings</a></li>
 				</ul>
 			</li>
 			<li><br /></li>
 
 			<li class='mainList'><a href='tanyaragir.com/blog'>Studio Blog</a></li>
+			<li class="mainList top-padding"><a href='http://bugswag.com/contact'>Contact</a></li>
 		</ul>
 	</nav>
 </div> <!-- END MAIN CONTENT -->

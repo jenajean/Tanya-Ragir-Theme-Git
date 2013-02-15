@@ -1,9 +1,9 @@
-body{height:1500px;}
+body{height:2200px;}
 #backdrop{
 	
-	background:#d7d7d7 url('http://bugswag.com/Images/home-studio.jpg');
+	background:#d7d7d7 url('http://bugswag.com/Images/home-studio-background-sized.jpg');
 	background-position:top center;
-	background-size:/* 1200px  */1500px 1875px;
+	background-size:1500px 2546px;
 }
 
 #home-slideshow {
@@ -12,32 +12,55 @@ body{height:1500px;}
 	left:300px;
 }
 .greater-wrap{
-	
+	padding-bottom:100px;
 }
 .center{
 	position:relative;
-	width: 750px;
+	width: 757px;
 }
 .center p{
 	display:inline-block;
-	width:400px;
+	width:340px;
 	text-align:left;
 	float:left;
-	margin-left:45px;
-
+	margin-left:0;
+	margin-top:25px;
 }
 
 #center-top {
 
+ padding-bottom: 25px;
+ margin:0;
+ width:520px;
 }
 #center-bottom {
-
+ border-top: 1px solid gray;
 }
 
+.home-page-header {
+	text-transform:none;
+	margin-top: 25px;
+	font-size: 1.2em;
+	font-family: "freight-sans-pro";
+	text-align: left;
+}
+.home-page-list {
+	margin-top: 25px;
+}
+.home-greeting {
+	margin-top: 224px;
+	vertical-align: top;
+	display:inline-block;
+	width:200px;
+}
+
+
 .image{
-	padding:15px;
+	padding:0;
+	margin:15px;
 	width:auto;
 	float:left;
+	height:375px;
 }
 
 			#subWork {

@@ -1,5 +1,5 @@
 <?php
-	/* Template Name: Armor & Pedestals */
+	/* Template Name: Drawings */
 ?>
 
 <?php get_header(); the_post(); ?>
@@ -10,10 +10,9 @@
 
 		
 	<div class='main-content-art-port'> 
-				<?php $recent = new WP_Query("page_id=1556542504"); while($recent->have_posts())
+				<?php $recent = new WP_Query("page_id=1556543201"); while($recent->have_posts())
 				: $recent->the_post();?>
-				       <!-- <h3><?php the_title(); ?></h3> -->
-				       <?php the_content(); ?>
+		       <?php the_content(); ?>
 				<?php endwhile; ?>
 
 			
@@ -45,14 +44,13 @@
 					<li><a href='http://bugswag.com/new_work/'>new work</a></li>
 					<li><a href='http://bugswag.com/grids/'>grids and totems</a></li>
 					<li><a href='http://bugswag.com/wall-sculptures/'>wall sculptures</a></li>
-					<li><a href='http://bugswag.com/pedestals/' class="selected">Armor Series & pedestals</a></li>
+					<li><a href='http://bugswag.com/pedestals/'>Armor Series & pedestals</a></li>
 					<li><a href='http://bugswag.com/saggar_small/'>saggar-fired & wall pieces</a></li>
 					<li><a href='http://bugswag.com/lifesize/'>lifesize ceramic</a></li>
 					<li><a href='http://bugswag.com/intimate/'>intimate ceramic</a></li>
 					<li><a href='http://bugswag.com/classical_figurative/'>classical figurative</a></li>
 					<li><a href='http://bugswag.com/commissions/'>commissions</a></li>
-					<li><a href='http://bugswag.com/drawings/'>drawings</a></li>
-					
+					<li><a href='http://bugswag.com/drawings/' class="selected">drawings</a></li>					
 				</ul>
 			</li>
 			<li><br /></li>
@@ -61,7 +59,6 @@
 			<li class="mainList top-padding"><a href='http://bugswag.com/contact'>Contact</a></li>
 		</ul>
 	</nav>
-
 
 			
 </div> <!-- END MAIN CONTENT -->
