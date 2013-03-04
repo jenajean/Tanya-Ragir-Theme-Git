@@ -1,45 +1,35 @@
 <?php
-	/* Template Name: Contact */
+/* Template Name: Press Page 2000 */
+
+
 ?>
 
 <?php get_header(); the_post(); ?>
-
 <div class="page-wrap">
-<div class="main-content group">	
-		
+<div class="group main-content">
+<!-- <div id="top-content"><h2>Press</h2></div> -->
+<div id="tab_section_wrapper">
+	<div id="tabs">
+		<ul>
+			<li id="center1" class="selected-tab"><a href="http://bugswag.com/page-press-2000">Recent Press</a></li>
+			<li id="center2"><a href="http://bugswag.com/page-press-1990">1990-99</a></li>
+			<li id="center3"><a href="http://bugswag.com/page-press-1970">1976-89</a></li>
+		</ul>
+	</div><!--end tabs-->
+	<div id="tabbed_content">
 	
-	<div class="center">
-		<?php $recent = new WP_Query("page_id=1556543402"); while($recent->have_posts())
-		: $recent->the_post();?>
-		<h3><?php the_title(); ?></h3></br>
-		<?php the_content(); ?>
-		<?php endwhile; ?>
-		
-		<div id="contact_form" class="group">
-			<form action="contact.php" method="post">
-				<span class="form-headers">Your name</span>
-				<input class='field' type="text" name="cf_name">
-				<br/>
 
-				<span class="form-headers">Your e-mail</span>
-				<input class='field' type="text" name="cf_email">
-				<br/>
-				
-				<span class="form-headers">Message</span>
-				<textarea name="cf_message"></textarea>
-				<br/>
-				<div id="button-wrapper">
-					<input class="button" type="submit" value="Send">
-					<input class="button" type="reset" value="Clear">
-				</div>
-			</form>
+		<div id='center1' class="center-press viewed"> 
+			<?php echo do_shortcode('[portfolio_slideshow id="1556542305" pagerstyle=carousel pagerpos=top  navpos=disabled showtitles=true ]');?>
+		
 		</div>
 		
-		
-	</div>
-		
+	</div> <!--end tabbed_content-->
+</div><!--end tab_section_wrapper-->	
 	
-	<!-- MENU/NAV below-->
+	
+		<!-- MENU/NAV below-->
+
 	<nav id='statement-nav'>
 		<ul id='artist-menu-show'>
 			<li class='mainList' id='artist'><a href='http://bugswag.com/statement/'>the Artist</a></li>
@@ -47,7 +37,7 @@
 				<ul id='subArtist' class='dd'>
 					<li class='dd'><a href='http://bugswag.com/statement/'>artist statement</a></li>
 					<li class='dd'><a href='http://bugswag.com/bio/'>biography</a></li>
-					<li class='dd'><a href='http://bugswag.com/press/'>press</a></li>
+					<li class='dd'><a href='http://bugswag.com/press/' class="selected">press</a></li>
 					<li class='dd'><a href='http://bugswag.com/resume/'>resume</a></li>
 					<li class='dd'><a href='http://bugswag.com/events/'>events</a></li>
 					<li class='dd'><a href='http://bugswag.com/classes/'>classes</a></li>
@@ -69,22 +59,16 @@
 					<li><a href='http://bugswag.com/saggar_small/'>saggar-fired & wall pieces</a></li>
 					<li><a href='http://bugswag.com/wall-sculptures/'>wall sculptures</a></li>					
 					<li><a href='http://bugswag.com/drawings/'>drawings</a></li>
-
 				</ul>
 			</li>
 			<li><br /></li>
-			
-			
 
 			<li class='mainList'><a href='http://www.tanyaragir.com/blog'>Studio Blog</a></li>
-			
-			<li class="mainList top-padding"><a href='http://bugswag.com/contact' class="selected">Contact</a></li>
+			<li class="mainList top-padding"><a href='http://bugswag.com/contact'>Contact</a></li>
 		</ul>
 	</nav>
-	
-</div> <!-- END MAIN CONTENT -->
-</div>	<!-- END DIV Pagewrap -->
-	
-	<!-- DIV backdrop ends in footer -->
-	
-	<?php get_footer(); ?>
+	</div> <!-- END MAIN CONTENT -->
+	</div> <!-- END pagewrap -->	
+	<!-- DIV BACKDROP & greater-wrapper ends in footer -->
+
+		<?php get_footer(); ?>

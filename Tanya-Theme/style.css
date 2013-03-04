@@ -10,6 +10,7 @@ h1, h2, h3, a, ul, nav, aside, header, footer {
 	font-weight:normal;
 }
 body {
+	min-width: 1030px;
 	background:#d7d7d7;
 }
 #backdrop {
@@ -39,13 +40,16 @@ h1	{
 	}
 h2{
 	font-family:"angie-sans";
-	font-size:16px;
+	font-size:18px;
 	color:#464646;
 	text-transform:uppercase;
 	}	
 h3 {font-size:15px;}
 ul, li {list-style-type: none;
 	list-style-position: inside;}
+	ul {
+		padding:0;
+	}
 li a:hover {font-weight: bold;}
 a {
 	text-decoration: none;

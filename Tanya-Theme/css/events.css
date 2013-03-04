@@ -10,31 +10,51 @@
 .center h1{
 	font-size:26px;
 	text-transform:none;
+	padding-bottom: 30px;
+	padding-top: 10px;
 	
 }
 .center h2{
 	text-align:left;
 	font-size:18px;
-		padding-bottom:10px;
+		padding-bottom:25px;
 		padding-top:18px;
 		clear:both;
+		border-top: 1px solid gray;
 }
 
 #centercenter{
 	width:500px;
 	margin:0 auto;
 }
-.event-thumb {
 
-	overflow:hidden;
-	float:left;
-	padding-right:15px;
+.event-thumb-wrapper {
+	float: left;
+	height: 285px;
+	width: 230px;
+	overflow: hidden;
+	margin: 15px;
 }
-.event-thumb img{
-	width:254px;
+
+.event-thumb-wrapper p{
+	padding-bottom:5px;
 }
-.event-thumb div{
+.event-thumb-wrapper:hover {
+	opacity:0.65;
+	filter:alpha(opacity=65); /* For IE8 and earlier */
+}
+
+.event-thumb-wrapper img{
+	width: 230px;
+
+}
+.recent-events, .past-events {
+	margin-bottom:25px;
+	width:523px;
 	
+}
+.past-events {
+
 }
 
 #wrap-test{

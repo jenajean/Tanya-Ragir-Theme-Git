@@ -11,19 +11,17 @@
 <div id="tab_section_wrapper">
 	<div id="tabs">
 		<ul>
-			<li id="center1" class="selected-tab"><a href=#>Recent Press</a></li>
-			<li id="center2"><a href="http://bugswag.com/page-press-1990">1990-99</a></li>
-			<li id="center3"><a href="http://bugswag.com/page-press-1970">1976-89</a></li>
+			<li id="center1" class="selected-tab">Recent Press</li>
+			<li id="center2">1990-99</li>
+			<li id="center3">1976-89</li>
 		</ul>
 	</div><!--end tabs-->
 	<div id="tabbed_content">
-	
 		<div id='center1' class="center-press viewed"> 
 			<?php echo do_shortcode('[portfolio_slideshow id="1556542305" pagerstyle=carousel pagerpos=top  navpos=disabled showtitles=true ]');?>
 		
 		</div>
 			
-
 		
 	</div> <!--end tabbed_content-->
 </div><!--end tab_section_wrapper-->	
@@ -50,21 +48,21 @@
 			
 			<li>
 				<ul id='subWork' class='dd'>
-					<li><a href='http://bugswag.com/pedestals/'>armor series & pedestals</a></li>
-					<li><a href='http://bugswag.com/classical_figurative/'>classical figurative</a></li>
-					<li><a href='http://bugswag.com/commissions/'>commissions & public art</a></li>
-					<li><a href='http://bugswag.com/grids/'>grids and totems</a></li>
-					<li><a href='http://bugswag.com/intimate/'>intimate ceramic</a></li>
-					<li><a href='http://bugswag.com/lifesize/'>lifesize ceramic</a></li>
 					<li><a href='http://bugswag.com/new_work/'>new work</a></li>
+					<li><a href='http://bugswag.com/grids/'>grids and totems</a></li>
+					<li><a href='http://bugswag.com/wall-sculptures/'>wall sculptures</a></li>
+					<li><a href='http://bugswag.com/pedestals/'>Armor Series & pedestals</a></li>
 					<li><a href='http://bugswag.com/saggar_small/'>saggar-fired & wall pieces</a></li>
-					<li><a href='http://bugswag.com/wall-sculptures/'>wall sculptures</a></li>					
+					<li><a href='http://bugswag.com/lifesize/'>lifesize ceramic</a></li>
+					<li><a href='http://bugswag.com/intimate/'>intimate ceramic</a></li>
+					<li><a href='http://bugswag.com/classical_figurative/'>classical figurative</a></li>
+					<li><a href='http://bugswag.com/commissions/'>commissions</a></li>
 					<li><a href='http://bugswag.com/drawings/'>drawings</a></li>
 				</ul>
 			</li>
 			<li><br /></li>
 
-			<li class='mainList'><a href='http://www.tanyaragir.com/blog'>Studio Blog</a></li>
+			<li class='mainList'><a href='tanyaragir.com/blog'>Studio Blog</a></li>
 			<li class="mainList top-padding"><a href='http://bugswag.com/contact'>Contact</a></li>
 		</ul>
 	</nav>

@@ -1,9 +1,9 @@
-body{height:2200px;}
+body{height:1800px;}
 #backdrop{
 	
-	background:#d7d7d7 url('http://bugswag.com/Images/home-studio-background-sized.jpg');
+	background:#d7d7d7 url('http://bugswag.com/Images/home-studio-background-light.jpg');
 	background-position:top center;
-	background-size:1500px 2546px;
+	background-size:1300px;
 }
 
 #home-slideshow {
@@ -31,7 +31,7 @@ body{height:2200px;}
 
  padding-bottom: 25px;
  margin:0;
- width:520px;
+/*  width:520px; */
 }
 #center-bottom {
  border-top: 1px solid gray;
@@ -48,10 +48,11 @@ body{height:2200px;}
 	margin-top: 25px;
 }
 .home-greeting {
-	margin-top: 224px;
+	margin-top: 196px;
 	vertical-align: top;
 	display:inline-block;
 	width:200px;
+	padding-left:9px;
 }
 
 
@@ -60,7 +61,7 @@ body{height:2200px;}
 	margin:15px;
 	width:auto;
 	float:left;
-	height:375px;
+	height:345px;
 }
 
 			#subWork {

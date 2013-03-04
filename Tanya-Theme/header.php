@@ -33,7 +33,7 @@
 
 	<!-- <script type="text/javascript" src="http://localhost:8888/tanyaragir.com/slideClickThrough.js"></script> -->
 	
-	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="shortcut icon" href="http://bugswag.com/Images/favicon.png">
 
 	
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
@@ -95,6 +95,22 @@
 		<link rel="stylesheet" href="<?php
 			bloginfo('template_url'); ?>/css/press.css">
 	<?php } ?>
+	
+	<?php if (is_page_template('page-press-1970.php')) { ?>
+		<link rel="stylesheet" href="<?php
+			bloginfo('template_url'); ?>/css/press.css">
+	<?php } ?>	
+	
+	<?php if (is_page_template('page-press-1990.php')) { ?>
+		<link rel="stylesheet" href="<?php
+			bloginfo('template_url'); ?>/css/press.css">
+	<?php } ?>
+	
+	<?php if (is_page_template('page-press-2000.php')) { ?>
+		<link rel="stylesheet" href="<?php
+			bloginfo('template_url'); ?>/css/press.css">
+	<?php } ?>
+	
 	
 	<!-- THIS IS TO GET A CUSTOM STYLESHEET FOR EACH PAGE BY PAGE-TEMPLATE bio -->
 	<?php if (is_page_template('page-bio.php')) { ?>

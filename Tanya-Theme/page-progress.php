@@ -1,5 +1,5 @@
 <?php
-	/* Template Name: Events */
+	/* Template Name: Progress Shots */
 ?>
 
 <?php get_header(); the_post(); ?>
