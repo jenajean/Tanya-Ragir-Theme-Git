@@ -55,7 +55,7 @@
 			</li>
 			<li><br /></li>
 
-			<li class='mainList'><a href='http://www.tanyaragir.com/blog'>Studio Blog</a></li>
+			<li class='mainList'><a target="_blank" href='http://www.tanyaragir.com/blog'>Studio Blog</a></li>
 			<li class="mainList top-padding"><a href='http://bugswag.com/contact'>Contact</a></li>
 		</ul>
 	</nav>
