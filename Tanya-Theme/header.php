@@ -4,9 +4,6 @@
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>" />
 	
-	<?php if (is_search()) { ?>
-	   <meta name="robots" content="noindex, nofollow" /> 
-	<?php } ?>
 
 	<title>
 		   <?php

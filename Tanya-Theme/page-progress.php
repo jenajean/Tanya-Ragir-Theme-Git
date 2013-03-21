@@ -5,16 +5,6 @@
 <?php get_header(); the_post(); ?>
 
 
-<!-- 
-<div class="event-thumb-wrapper"><div class="event-thumb"><img src="/wp-content/uploads/2013/02/In-Bloom-Opening-Night_flattened-300x295.jpg" alt="test image"/></div>[popup-slideshow id=1556543165 text="In Bloom Opening Night"]</div>
-
-<div class="event-thumb-wrapper"><div class="event-thumb"><img src="http://www.bugswag.com/Images/CAC-thumb1.jpg" alt="test image"/></div>[popup-slideshow id=1556543741 text="California Art Club Show"]</div>
-<h2>Past Events</h2>
-
-<div class="event-thumb-wrapper"><div class="event-thumb"><img src="/wp-content/uploads/2012/10/upward_12.jpeg" alt="test image"/></div>[popup-slideshow id=1556543323 text="Upward Bound House Fundraiser"]</div>
-
-<div class="event-thumb-wrapper"><div class="event-thumb"><img src="/wp-content/uploads/2012/10/canyc2010.jpeg" alt="test image"/></div>[popup-slideshow id=1556543323 text="CAN Show in NYC"]</div>
- -->
 
 <div class="page-wrap">
 <div class="main-content group">	
@@ -94,18 +84,7 @@
 	
 	</div>
  
-		
-		<!-- 
-<div class="event-thumb">
-			<a  class='slideshow-popup'
-			href='http://bugswag.com/wp-content/plugins/portfolio-slideshow-pro/inc/popup/
-			popup.php?id=1556542912&wh=625&ww=625&carouselsize=4'><img class="image"
-			src="<?php echo get_post_meta($post->ID, "mold-marathon", true);?>" alt="" /></a>
-	
-			<div class="slides-link"><?php echo do_shortcode('[popup-slideshow id=1556543323 text="Mold Marathon"]');?>
-			</div>
-		</div>
- -->
+
 	</div> <!-- end center center -->	
 	</div>
 		
@@ -143,7 +122,7 @@
 				</ul>
 			</li>
 			<li><br /></li>
-
+			<li class='mainList'><a href='http://bugswag.com/progress/'>Progress Shots</a></li>
 			<li class='mainList'><a href='http://www.tanyaragir.com/blog'>Studio Blog</a></li>
 			<li class="mainList top-padding"><a href='http://bugswag.com/contact'>Contact</a></li>
 		</ul>
