@@ -86,7 +86,7 @@
 	
 	
 		<div class="event-thumb-wrapper group">
-			<p>Contemporary Art Network<br /> New York City Gallery Show - </p>
+			<p>Contemporary Art Network<br /> NYC Gallery Show - Jan. 7, 2010</p>
 		  <a class='slideshow-popup' href='http://bugswag.com/wp-content/plugins/portfolio-slideshow-pro/inc/popup/popup.php?id=1556544596&wh=625&ww=625&carouselsize=4'>
 			<img src="http://www.bugswag.com/Images/CAN-logo.jpg" alt="Contemporary Art Network"/>
 		  </a>

@@ -63,6 +63,9 @@ body{height:1800px;}
 	float:left;
 	height:345px;
 }
+nav {
+margin-right: -5px;
+}
 
 			#subWork {
 				/*width:500px;*/
